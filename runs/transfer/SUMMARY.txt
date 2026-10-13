@@ -1,0 +1,8 @@
+step_45
+step_60
+step_0 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |   9m 6s | Reward -0.0352 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_0 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |  8m 46s | Reward -0.0281 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_60 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |  9m 23s | Reward -0.0173 | Turns 21.2 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_60 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |   9m 4s | Reward -0.0144 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_45 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |   9m 8s | Reward -0.0172 | Turns 21.3 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_45 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |   9m 0s | Reward -0.0150 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%

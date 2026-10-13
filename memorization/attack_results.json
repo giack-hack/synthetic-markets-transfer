@@ -1,0 +1,25 @@
+{
+  "sigma_annualized": 0.25219168748465837,
+  "premium_frac": 0.026825,
+  "cost_bps": 5.0,
+  "public": {
+    "no_hedge (degenerate)": -0.028619948883056637,
+    "full_hedge (degenerate)": -0.029266174774169918,
+    "constant_0.5 (degenerate)": -0.015393334527587892,
+    "churn_max (cost edge)": -0.04268968374916077,
+    "bs_delta (honest)": -0.007550257492953594,
+    "reversion_probe (artifact)": -0.018999185659833946,
+    "oracle_ceiling (upper bound)": -0.0003450373215904232,
+    "lookup_cheat (memorization)": -0.0003450373215904232
+  },
+  "heldout": {
+    "no_hedge (degenerate)": -0.028087599780273437,
+    "full_hedge (degenerate)": -0.03179165199584961,
+    "constant_0.5 (degenerate)": -0.015836615518188477,
+    "churn_max (cost edge)": -0.04285594570327758,
+    "bs_delta (honest)": -0.007786359068165131,
+    "reversion_probe (artifact)": -0.019579463905042973,
+    "oracle_ceiling (upper bound)": -0.00037018932785034175,
+    "lookup_cheat (memorization)": -0.018438882300201416
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "env": {
+    "taskset": {
+      "task": {
+        "judges": [],
+        "stops": {},
+        "metrics": {},
+        "rewards": {}
+      },
+      "system_prompt": null,
+      "id": "hedge-gym",
+      "bank": "exam_2020_overlap",
+      "num_tasks": 0,
+      "shuffle_seed": 0
+    },
+    "timeout": {
+      "episode": null,
+      "finalize": null
+    },
+    "retries": {
+      "max_retries": 0,
+      "rules": []
+    },
+    "max_concurrent_agents": 1,
+    "interception": {
+      "type": "elastic",
+      "multiplex": 32
+    },
+    "id": "",
+    "agent": {
+      "harness": {
+        "id": "null",
+        "env": {},
+        "forward_env": [],
+        "mcp_header_env": {},
+        "tool_timeout": 600.0,
+        "disabled_tools": null,
+        "skills": []
+      },
+      "runtime": {
+        "type": "subprocess"
+      },
+      "model": null,
+      "client": null,
+      "sampling": null,
+      "max_turns": 48,
+      "max_input_tokens": null,
+      "max_output_tokens": null,
+      "max_total_tokens": null,
+      "timeout": {
+        "setup": null,
+        "rollout": null,
+        "finalize": null,
+        "scoring": null
+      },
+      "retries": {
+        "max_retries": 0,
+        "rules": []
+      }
+    },
+    "invalid_retries": 1
+  },
+  "serve": {
+    "pool": {
+      "type": "elastic",
+      "max_workers": null,
+      "multiplex": 128
+    },
+    "address": null,
+    "max_concurrent": null
+  },
+  "address_file": "/root/transfer_out/eval_step_0_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--07b85a00/configs/attempt_1/resolved/envs/eval/hedge-gym-exam_2020_overlap.address",
+  "log": {
+    "level": "info",
+    "json_logging": false
+  }
+}

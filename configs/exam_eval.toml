@@ -1,0 +1,22 @@
+# Exam evaluation: one real-crisis exam bank, greedy, every window, same prompt as training.
+# Usage (inference server already up, with the adapter under test loaded under the base-model name,
+# or the all-zero adapter for the untrained control):
+#   uv run eval @ configs/exam_eval.toml --source.0.env.taskset.bank exam_2022_overlap --output-dir <dir>
+# Banks in this release: exam_2020_overlap, exam_2022_overlap (21-day windows on a 5-day grid).
+model = "Qwen/Qwen3-1.7B"
+group_size = 1
+
+[client]
+base_url = "http://localhost:8000/v1"
+
+[sampling]
+max_completion_tokens = 160
+temperature = 0.0
+
+[[source]]
+name = "hedge-gym-exam"
+env.taskset.id = "hedge-gym"
+env.taskset.bank = "exam_2020_overlap"
+env.agent.harness.id = "null"
+env.agent.runtime.type = "subprocess"
+env.agent.max_turns = 48

@@ -1,0 +1,85 @@
+10:39:05    INFO Starting eval
+10:39:05 WARNING Non-interactive session - not auto-starting a dashboard (the output dir stays registered)
+10:39:06    INFO Starting hedge-gym-exam_2020_overlap server
+10:39:06    INFO Configs:
+  Command:          /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/configs/attempt_1/command.txt
+  Launch TOML:      /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/configs/attempt_1/eval.toml
+  Eval:             /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/configs/attempt_1/resolved/eval.json
+  Envs:             /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/configs/attempt_1/resolved/envs/eval/*.json
+   hedge-gym-e...:  /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/configs/attempt_1/resolved/envs/eval/hedge-gym-exam_2020_overlap.json
+10:39:06    INFO Logs:
+  Eval:             tail -F /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/logs/attempt_1/eval.log
+  Envs:             tail -F /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/logs/attempt_1/envs/*/*.log
+   hedge-gym-e...:  tail -F /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/logs/attempt_1/envs/eval/hedge-gym-exam_2020_overlap.log
+10:39:06    INFO Initializing monitors (wandb=None file=FileMonitorConfig(path=PosixPath('metrics.jsonl'), chunk_bytes=5368709120, compress=True, float_decimals=4) prime=None)
+10:39:06    INFO Initializing monitors (file)
+10:39:06    INFO Initializing file monitor (path=PosixPath('metrics.jsonl') chunk_bytes=5368709120 compress=True float_decimals=4)
+10:39:06    INFO Logging metrics and episodes to the local filesystem (/root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b)
+10:39:06    INFO Initializing inference pool (base_url=http://localhost:8000/v1, model=Qwen/Qwen3-1.7B)
+10:39:06    INFO Loading eval environment(s)
+10:39:11    INFO Env hedge-gym-exam_2020_overlap ready in 4.0s (num_tasks=188)
+10:39:11    INFO Eval environment(s) ready (hedge-gym-exam_2020_overlap)
+10:39:11    INFO Waiting for inference pool to be ready
+10:39:11    INFO Inference pool ready
+10:39:11    INFO Collecting inference metrics from server0=http://localhost:8000
+10:39:11    INFO Derived initial max inflight 128 - 290.6K KV cache tokens / 5.1K tokens per episode
+10:39:11    INFO Starting evals in hedge-gym-exam_2020_overlap at step 0 (188 total rollouts)
+10:39:11    INFO Switching dispatcher mode to prefer eval episodes because eval was triggered at step 0
+10:39:21    INFO Idle; 24 inflight episodes (cap 128.0, signal clear) - running 24
+10:39:31    INFO Idle; 48 inflight episodes (cap 128.0, signal clear) - running 48
+10:39:41    INFO Idle; 72 inflight episodes (cap 128.0, signal clear) - running 72
+10:39:51    INFO Idle; 96 inflight episodes (cap 128.0, signal clear) - running 96
+10:40:01    INFO Idle; 120 inflight episodes (cap 128.0, signal clear) - pending 4 · running 116
+10:40:11    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - pending 12 · running 116
+10:40:21    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - pending 12 · running 116
+10:40:31    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - pending 12 · running 116
+10:40:41    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - setup 3 · running 125
+10:40:51    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:01    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:11    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:21    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:31    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:41    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:41:51    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:01    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:11    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:21    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:31    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:41    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:42:51    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:43:01    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:43:11    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:43:21    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:43:31    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:43:41    INFO hedge-gym-exam_2020_overlap 1/188 (0.5%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:43:51    INFO hedge-gym-exam_2020_overlap 2/188 (1.1%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:01    INFO hedge-gym-exam_2020_overlap 4/188 (2.1%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:11    INFO hedge-gym-exam_2020_overlap 7/188 (3.7%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:21    INFO hedge-gym-exam_2020_overlap 12/188 (6.4%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:31    INFO hedge-gym-exam_2020_overlap 17/188 (9.0%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:41    INFO hedge-gym-exam_2020_overlap 23/188 (12.2%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:44:51    INFO hedge-gym-exam_2020_overlap 32/188 (17.0%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:45:01    INFO hedge-gym-exam_2020_overlap 40/188 (21.3%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:45:11    INFO hedge-gym-exam_2020_overlap 46/188 (24.5%); 128 inflight episodes (cap 128.0, signal soft) - running 128
+10:45:21    INFO hedge-gym-exam_2020_overlap 53/188 (28.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:45:31    INFO hedge-gym-exam_2020_overlap 59/188 (31.4%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+10:45:37    INFO Switching dispatcher mode to prefer train episodes because the eval queue drained
+10:45:41    INFO hedge-gym-exam_2020_overlap 76/188 (40.4%); 112 inflight episodes (cap 128.0, signal clear) - running 112
+10:45:51    INFO hedge-gym-exam_2020_overlap 82/188 (43.6%); 106 inflight episodes (cap 128.0, signal clear) - running 105 · scoring 1
+10:46:01    INFO hedge-gym-exam_2020_overlap 112/188 (59.6%); 76 inflight episodes (cap 128.0, signal clear) - running 76
+10:46:11    INFO hedge-gym-exam_2020_overlap 122/188 (64.9%); 66 inflight episodes (cap 128.0, signal clear) - running 66
+10:46:21    INFO hedge-gym-exam_2020_overlap 124/188 (66.0%); 64 inflight episodes (cap 128.0, signal clear) - running 64
+10:46:31    INFO hedge-gym-exam_2020_overlap 125/188 (66.5%); 63 inflight episodes (cap 128.0, signal clear) - running 63
+10:46:41    INFO hedge-gym-exam_2020_overlap 126/188 (67.0%); 62 inflight episodes (cap 128.0, signal clear) - running 62
+10:46:51    INFO hedge-gym-exam_2020_overlap 126/188 (67.0%); 62 inflight episodes (cap 128.0, signal clear) - running 62
+10:47:01    INFO hedge-gym-exam_2020_overlap 126/188 (67.0%); 62 inflight episodes (cap 128.0, signal clear) - running 62
+10:47:11    INFO hedge-gym-exam_2020_overlap 128/188 (68.1%); 60 inflight episodes (cap 128.0, signal clear) - running 60
+10:47:21    INFO hedge-gym-exam_2020_overlap 128/188 (68.1%); 60 inflight episodes (cap 128.0, signal clear) - running 60
+10:47:31    INFO hedge-gym-exam_2020_overlap 128/188 (68.1%); 60 inflight episodes (cap 128.0, signal clear) - running 60
+10:47:41    INFO hedge-gym-exam_2020_overlap 129/188 (68.6%); 59 inflight episodes (cap 128.0, signal clear) - running 59
+10:47:51    INFO hedge-gym-exam_2020_overlap 133/188 (70.7%); 55 inflight episodes (cap 128.0, signal clear) - running 55
+10:48:01    INFO hedge-gym-exam_2020_overlap 137/188 (72.9%); 51 inflight episodes (cap 128.0, signal clear) - running 51
+10:48:11    INFO hedge-gym-exam_2020_overlap 149/188 (79.3%); 39 inflight episodes (cap 128.0, signal clear) - running 39
+10:48:20 SUCCESS Evaluated hedge-gym-exam_2020_overlap (Step 0) |   9m 8s | Reward -0.0172 | Turns 21.3 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+10:48:20    INFO Finalized metrics at /root/transfer_out/eval_step_45_exam_2020_overlap/hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b/monitors/file/metrics.jsonl
+10:48:21 SUCCESS Eval finished!

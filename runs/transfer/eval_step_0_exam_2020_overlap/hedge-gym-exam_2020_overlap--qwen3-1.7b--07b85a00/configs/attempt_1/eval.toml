@@ -1,0 +1,22 @@
+# Evaluate a model on the pilot's held-out FLOW worlds (400 tasks, greedy).
+#   uv run eval @ configs/pilot_eval.toml -m <model-or-checkpoint>
+model = "Qwen/Qwen3-1.7B"
+group_size = 1
+
+[select]
+limit = 400
+
+[client]
+base_url = "http://localhost:8000/v1"
+
+[sampling]
+max_completion_tokens = 160
+temperature = 0.0
+
+[[source]]
+name = "hedge-gym-exam_2020_overlap"
+env.taskset.id = "hedge-gym"
+env.taskset.bank = "exam_2020_overlap"
+env.agent.harness.id = "null"
+env.agent.runtime.type = "subprocess"
+env.agent.max_turns = 48

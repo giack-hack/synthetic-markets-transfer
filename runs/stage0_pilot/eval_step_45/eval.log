@@ -1,0 +1,95 @@
+04:59:40    INFO Starting eval
+04:59:40 WARNING Non-interactive session - not auto-starting a dashboard (the output dir stays registered)
+04:59:41    INFO Starting hedge-gym-heldout server
+04:59:41    INFO Configs:
+  Command:          /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/configs/attempt_1/command.txt
+  Launch TOML:      /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/configs/attempt_1/eval.toml
+  Eval:             /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/configs/attempt_1/resolved/eval.json
+  Envs:             /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/configs/attempt_1/resolved/envs/eval/*.json
+   hedge-gym-h...:  /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/configs/attempt_1/resolved/envs/eval/hedge-gym-heldout.json
+04:59:41    INFO Logs:
+  Eval:             tail -F /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/logs/attempt_1/eval.log
+  Envs:             tail -F /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/logs/attempt_1/envs/*/*.log
+   hedge-gym-h...:  tail -F /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/logs/attempt_1/envs/eval/hedge-gym-heldout.log
+04:59:41    INFO Initializing monitors (wandb=None file=FileMonitorConfig(path=PosixPath('metrics.jsonl'), chunk_bytes=5368709120, compress=True, float_decimals=4) prime=None)
+04:59:41    INFO Initializing monitors (file)
+04:59:41    INFO Initializing file monitor (path=PosixPath('metrics.jsonl') chunk_bytes=5368709120 compress=True float_decimals=4)
+04:59:41    INFO Logging metrics and episodes to the local filesystem (/root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9)
+04:59:41    INFO Initializing inference pool (base_url=http://localhost:8000/v1, model=Qwen/Qwen3-1.7B)
+04:59:41    INFO Loading eval environment(s)
+04:59:46    INFO Env hedge-gym-heldout ready in 4.0s (num_tasks=400)
+04:59:46    INFO Eval environment(s) ready (hedge-gym-heldout)
+04:59:46    INFO Waiting for inference pool to be ready
+04:59:46    INFO Inference pool ready
+04:59:46    INFO Collecting inference metrics from server0=http://localhost:8000
+04:59:46    INFO Derived initial max inflight 128 - 290.6K KV cache tokens / 5.1K tokens per episode
+04:59:46    INFO Starting evals in hedge-gym-heldout at step 0 (400 total rollouts)
+04:59:46    INFO Switching dispatcher mode to prefer eval episodes because eval was triggered at step 0
+04:59:56    INFO Idle; 24 inflight episodes (cap 128.0, signal clear) - running 24
+05:00:06    INFO Idle; 48 inflight episodes (cap 128.0, signal clear) - running 48
+05:00:16    INFO Idle; 72 inflight episodes (cap 128.0, signal clear) - running 72
+05:00:26    INFO Idle; 96 inflight episodes (cap 128.0, signal clear) - running 96
+05:00:36    INFO Idle; 120 inflight episodes (cap 128.0, signal clear) - pending 4 · running 116
+05:00:46    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - pending 12 · running 116
+05:00:56    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:06    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:16    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:26    INFO Idle; 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:36    INFO hedge-gym-heldout 4/400 (1.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:46    INFO hedge-gym-heldout 4/400 (1.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:01:56    INFO hedge-gym-heldout 5/400 (1.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:02:06    INFO hedge-gym-heldout 9/400 (2.2%); 128 inflight episodes (cap 128.0, signal clear) - running 127 · done 1
+05:02:16    INFO hedge-gym-heldout 14/400 (3.5%); 128 inflight episodes (cap 128.0, signal clear) - running 127 · scoring 1
+05:02:26    INFO hedge-gym-heldout 26/400 (6.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:02:36    INFO hedge-gym-heldout 32/400 (8.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:02:46    INFO hedge-gym-heldout 40/400 (10.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:02:56    INFO hedge-gym-heldout 46/400 (11.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:06    INFO hedge-gym-heldout 50/400 (12.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:16    INFO hedge-gym-heldout 57/400 (14.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:26    INFO hedge-gym-heldout 68/400 (17.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:36    INFO hedge-gym-heldout 85/400 (21.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:46    INFO hedge-gym-heldout 99/400 (24.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:03:56    INFO hedge-gym-heldout 115/400 (28.7%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:06    INFO hedge-gym-heldout 124/400 (31.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:16    INFO hedge-gym-heldout 128/400 (32.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:26    INFO hedge-gym-heldout 129/400 (32.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:36    INFO hedge-gym-heldout 132/400 (33.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:46    INFO hedge-gym-heldout 134/400 (33.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:04:56    INFO hedge-gym-heldout 137/400 (34.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:05:06    INFO hedge-gym-heldout 139/400 (34.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:05:16    INFO hedge-gym-heldout 142/400 (35.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:05:26    INFO hedge-gym-heldout 147/400 (36.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:05:36    INFO hedge-gym-heldout 150/400 (37.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:05:46    INFO hedge-gym-heldout 156/400 (39.0%); 128 inflight episodes (cap 128.0, signal clear) - running 127 · scoring 1
+05:05:56    INFO hedge-gym-heldout 159/400 (39.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:06    INFO hedge-gym-heldout 168/400 (42.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:16    INFO hedge-gym-heldout 174/400 (43.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:26    INFO hedge-gym-heldout 179/400 (44.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:36    INFO hedge-gym-heldout 185/400 (46.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:46    INFO hedge-gym-heldout 190/400 (47.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:06:56    INFO hedge-gym-heldout 201/400 (50.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:06    INFO hedge-gym-heldout 222/400 (55.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:16    INFO hedge-gym-heldout 235/400 (58.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:26    INFO hedge-gym-heldout 247/400 (61.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:36    INFO hedge-gym-heldout 253/400 (63.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:46    INFO hedge-gym-heldout 257/400 (64.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:07:56    INFO hedge-gym-heldout 258/400 (64.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:08:06    INFO hedge-gym-heldout 260/400 (65.0%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:08:16    INFO hedge-gym-heldout 263/400 (65.8%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:08:26    INFO hedge-gym-heldout 266/400 (66.5%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:08:36    INFO hedge-gym-heldout 269/400 (67.2%); 128 inflight episodes (cap 128.0, signal clear) - running 128
+05:08:46    INFO hedge-gym-heldout 271/400 (67.8%); 128 inflight episodes (cap 128.0, signal clear) - running 127 · scoring 1
+05:08:53    INFO Switching dispatcher mode to prefer train episodes because the eval queue drained
+05:08:56    INFO hedge-gym-heldout 279/400 (69.8%); 121 inflight episodes (cap 128.0, signal clear) - running 121
+05:09:06    INFO hedge-gym-heldout 281/400 (70.2%); 119 inflight episodes (cap 128.0, signal clear) - running 119
+05:09:16    INFO hedge-gym-heldout 286/400 (71.5%); 114 inflight episodes (cap 128.0, signal clear) - running 114
+05:09:26    INFO hedge-gym-heldout 295/400 (73.8%); 105 inflight episodes (cap 128.0, signal soft) - running 105
+05:09:36    INFO hedge-gym-heldout 301/400 (75.2%); 99 inflight episodes (cap 128.0, signal clear) - running 99
+05:09:46    INFO hedge-gym-heldout 304/400 (76.0%); 96 inflight episodes (cap 128.0, signal clear) - running 96
+05:09:56    INFO hedge-gym-heldout 314/400 (78.5%); 86 inflight episodes (cap 128.0, signal clear) - running 86
+05:10:06    INFO hedge-gym-heldout 329/400 (82.2%); 71 inflight episodes (cap 128.0, signal clear) - running 71
+05:10:16    INFO hedge-gym-heldout 352/400 (88.0%); 48 inflight episodes (cap 128.0, signal clear) - running 48
+05:10:26    INFO hedge-gym-heldout 389/400 (97.2%); 11 inflight episodes (cap 128.0, signal clear) - running 11
+05:10:32 SUCCESS Evaluated hedge-gym-heldout (Step 0) | 10m 45s | Reward -0.0110 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+05:10:32    INFO Finalized metrics at /root/pilot_out/eval_step_45/hedge-gym-heldout--qwen3-1.7b--679fb2a9/monitors/file/metrics.jsonl
+05:10:33 SUCCESS Eval finished!

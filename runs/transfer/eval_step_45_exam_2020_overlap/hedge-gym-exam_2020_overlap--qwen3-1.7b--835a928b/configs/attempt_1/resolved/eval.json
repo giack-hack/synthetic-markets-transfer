@@ -1,0 +1,201 @@
+{
+  "env": {
+    "taskset": {
+      "task": {
+        "judges": [],
+        "stops": {},
+        "metrics": {},
+        "rewards": {}
+      },
+      "system_prompt": null
+    },
+    "timeout": {
+      "episode": null,
+      "finalize": null
+    },
+    "retries": {
+      "max_retries": 0,
+      "rules": []
+    },
+    "max_concurrent_agents": 1,
+    "interception": {
+      "type": "elastic",
+      "multiplex": 32
+    }
+  },
+  "source": [
+    {
+      "env": {
+        "taskset": {
+          "task": {
+            "judges": [],
+            "stops": {},
+            "metrics": {},
+            "rewards": {}
+          },
+          "system_prompt": null,
+          "id": "hedge-gym",
+          "bank": "exam_2020_overlap",
+          "num_tasks": 0,
+          "shuffle_seed": 0
+        },
+        "timeout": {
+          "episode": null,
+          "finalize": null
+        },
+        "retries": {
+          "max_retries": 0,
+          "rules": []
+        },
+        "max_concurrent_agents": 1,
+        "interception": {
+          "type": "elastic",
+          "multiplex": 32
+        },
+        "id": "",
+        "agent": {
+          "harness": {
+            "id": "null",
+            "env": {},
+            "forward_env": [],
+            "mcp_header_env": {},
+            "tool_timeout": 600.0,
+            "disabled_tools": null,
+            "skills": []
+          },
+          "runtime": {
+            "type": "subprocess"
+          },
+          "model": null,
+          "client": null,
+          "sampling": null,
+          "max_turns": 48,
+          "max_input_tokens": null,
+          "max_output_tokens": null,
+          "max_total_tokens": null,
+          "timeout": {
+            "setup": null,
+            "rollout": null,
+            "finalize": null,
+            "scoring": null
+          },
+          "retries": {
+            "max_retries": 0,
+            "rules": []
+          }
+        },
+        "invalid_retries": 1
+      },
+      "serve": {
+        "pool": {
+          "type": "elastic",
+          "max_workers": null,
+          "multiplex": 128
+        },
+        "address": null,
+        "max_concurrent": null
+      },
+      "name": "hedge-gym-exam_2020_overlap",
+      "select": {
+        "include": {
+          "idx": [],
+          "ids": [],
+          "keys": [],
+          "names": []
+        },
+        "exclude": {
+          "idx": [],
+          "ids": [],
+          "keys": [],
+          "names": []
+        },
+        "shuffle": false,
+        "seed": 0,
+        "skip": 0,
+        "limit": 400
+      },
+      "sampling": {
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "max_completion_tokens": 160,
+        "reasoning_effort": null,
+        "extra_body": {}
+      },
+      "group_size": 1
+    }
+  ],
+  "sampling": {
+    "temperature": 0.0,
+    "top_p": null,
+    "top_k": null,
+    "min_p": null,
+    "max_completion_tokens": 160,
+    "reasoning_effort": null,
+    "extra_body": {}
+  },
+  "select": {
+    "include": {
+      "idx": [],
+      "ids": [],
+      "keys": [],
+      "names": []
+    },
+    "exclude": {
+      "idx": [],
+      "ids": [],
+      "keys": [],
+      "names": []
+    },
+    "shuffle": false,
+    "seed": 0,
+    "skip": 0,
+    "limit": 400
+  },
+  "group_size": 1,
+  "client": {
+    "wait_for_ready_timeout": 3600,
+    "base_url": "http://localhost:8000/v1",
+    "api_key_var": "VLLM_API_KEY",
+    "headers": {},
+    "headers_from_env": {},
+    "skip_model_check": false,
+    "admin_base_url": null,
+    "dynamo": null
+  },
+  "concurrency": {
+    "initial_inflight": null,
+    "min_inflight": 128,
+    "max_inflight": 128
+  },
+  "tasks_per_minute": null,
+  "heartbeat": null,
+  "model": "Qwen/Qwen3-1.7B",
+  "run": {
+    "name": "hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b",
+    "dir": "hedge-gym-exam_2020_overlap--qwen3-1.7b--835a928b"
+  },
+  "output_dir": "/root/transfer_out/eval_step_45_exam_2020_overlap",
+  "clean": false,
+  "dry_run": false,
+  "dashboard": true,
+  "resume": false,
+  "log": {
+    "level": "info",
+    "vf_level": "info",
+    "json_logging": false,
+    "log_data": false,
+    "interval": 10.0
+  },
+  "monitors": {
+    "wandb": null,
+    "file": {
+      "path": "metrics.jsonl",
+      "chunk_bytes": 5368709120,
+      "compress": true,
+      "float_decimals": 4
+    },
+    "prime": null
+  }
+}

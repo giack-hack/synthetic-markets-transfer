@@ -1,0 +1,99 @@
+[2026-10-06T12:44:43Z] boot: llm-gym-pilot zone=us-central1-b
+Tue Oct  6 12:44:44 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:00:04.0 Off |                    0 |
+| N/A   35C    P0             81W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100-SXM4-40GB          On  |   00000000:00:05.0 Off |                    0 |
+| N/A   38C    P0             85W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[2026-10-06T12:44:44Z] driver 580.178.04
+[2026-10-06T12:45:03Z] prime-rl at c8af1273576f7374e2b6695999b0014e31de228e
+[2026-10-06T12:45:07Z] submodule pins match prime-rl-pins.txt
+[2026-10-06T12:45:07Z] uv sync --all-extras (this takes ~15 min)
+torch 2.13.0+cu130 vllm 0.30.0 cuda 13.0
+[2026-10-06T12:49:16Z] starting inference server (base)
+[2026-10-06T12:52:56Z] server up
+[2026-10-06T12:52:56Z] eval base
+Evaluated hedge-gym-heldout (Step 0) |  9m 38s | Reward -0.0203 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-06T13:03:12Z] RL start (pilot_flow_s0, 60 steps, 2 GPUs)
+[2026-10-06T13:03:16Z] FAILED: RL run (see rl.log)
+Tue Oct  6 13:03:16 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:00:04.0 Off |                    0 |
+| N/A   36C    P0             60W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100-SXM4-40GB          On  |   00000000:00:05.0 Off |                    0 |
+| N/A   36C    P0             56W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+[2026-10-06T13:06:27Z] RESUME: re-running RL with corrected pilot_rl_2gpu_a100.toml (shared seq_len removed; orchestrator.seq_len=5120, trainer.model.seq_len=16384)
+[2026-10-06T13:06:27Z] RL start (pilot_flow_s0, 60 steps, 2 GPUs, a100 config)
+[2026-10-06T13:08:57Z] harvested adapter step_0
+[2026-10-06T16:20:35Z] harvested adapter step_15
+[2026-10-06T19:35:00Z] harvested adapter step_30
+[2026-10-06T22:53:09Z] harvested adapter step_45
+[2026-10-07T02:23:04Z] harvested adapter step_60
+[2026-10-07T02:24:00Z] RL done in 797 min
+/root/pilot_out/adapters/step_0
+/root/pilot_out/adapters/step_15
+/root/pilot_out/adapters/step_30
+/root/pilot_out/adapters/step_45
+/root/pilot_out/adapters/step_60
+[2026-10-07T04:17:46Z] starting inference server (step_0)
+[2026-10-07T04:19:26Z] server up
+[2026-10-07T04:19:26Z] adapter loaded from /root/pilot_out/adapters/step_0
+[2026-10-07T04:19:26Z] eval step_0
+Evaluated hedge-gym-heldout (Step 0) | 10m 15s | Reward -0.0215 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-07T04:31:10Z] starting inference server (step_15)
+[2026-10-07T04:32:50Z] server up
+[2026-10-07T04:32:50Z] adapter loaded from /root/pilot_out/adapters/step_15
+[2026-10-07T04:32:50Z] eval step_15
+Evaluated hedge-gym-heldout (Step 0) |  10m 0s | Reward -0.0167 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-07T04:44:22Z] starting inference server (step_30)
+[2026-10-07T04:46:02Z] server up
+[2026-10-07T04:46:02Z] adapter loaded from /root/pilot_out/adapters/step_30
+[2026-10-07T04:46:02Z] eval step_30
+Evaluated hedge-gym-heldout (Step 0) | 10m 16s | Reward -0.0151 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-07T04:57:54Z] starting inference server (step_45)
+[2026-10-07T04:59:34Z] server up
+[2026-10-07T04:59:34Z] adapter loaded from /root/pilot_out/adapters/step_45
+[2026-10-07T04:59:34Z] eval step_45
+Evaluated hedge-gym-heldout (Step 0) | 10m 45s | Reward -0.0110 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-07T05:12:04Z] starting inference server (step_60)
+[2026-10-07T05:13:44Z] server up
+[2026-10-07T05:13:44Z] adapter loaded from /root/pilot_out/adapters/step_60
+[2026-10-07T05:13:44Z] eval step_60
+Evaluated hedge-gym-heldout (Step 0) | 10m 51s | Reward -0.0112 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-07T05:27:21Z] all artifacts synced to <internal artifact store>; waiting for operator to delete this VM

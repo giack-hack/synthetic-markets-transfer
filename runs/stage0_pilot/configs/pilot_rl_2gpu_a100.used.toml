@@ -1,0 +1,65 @@
+# PREREG-LLM-GYM Stage 0 pilot: L_flow arm, era2019 bank, one seed.
+# Identical to pilot_rl_2gpu.toml except two TRAINER THROUGHPUT knobs, changed 2026-10-06
+# after the first A100 run measured 12-15 min per trainer step (MFU 11%, 9 GiB of 40 GiB used):
+#   [trainer.model] seq_len = 16384   (was the shared 5120) -> packs ~3x more episode-turns per
+#                                      trainer pass; orchestrator.seq_len stays 5120, so sample
+#                                      truncation and the data the model sees are unchanged
+#   fused_lm_head_token_chunk_size = 8192 (prime-rl default; 1024 was set for the 24 GB L4)
+# Nothing about the learning problem changes: same episodes, batch, group, LR, LoRA, reward, prompt.
+# Loss is a per-token mean over the global batch, so packing does not change the gradient.
+#   uv run rl @ configs/stage0_rl.used.toml --run.name pilot_flow_s0
+
+max_steps = 60
+# shared `seq_len` removed: prime-rl rejects a shared value when trainer.model.seq_len is set.
+# orchestrator.seq_len below is the original 5120.
+
+[ckpt]
+interval = 15
+
+[model]
+name = "Qwen/Qwen3-1.7B"
+
+[trainer.model]
+seq_len = 16384
+fused_lm_head_token_chunk_size = 8192
+ac_offloading = "None"
+optim_cpu_offload = false
+
+[trainer.model.ac]
+freq = 1
+
+[trainer.model.lora]
+rank = 32
+alpha = 64
+
+[trainer.optim]
+lr = 1e-5
+
+[orchestrator]
+seq_len = 5120
+batch_size = 64
+
+[orchestrator.train]
+group_size = 16
+
+[orchestrator.train.sampling]
+max_completion_tokens = 160
+temperature = 1.0
+
+[[orchestrator.train.source]]
+name = "hedge-gym-flow"
+env.taskset.id = "hedge-gym"
+env.taskset.bank = "era2019_flow_train"
+env.taskset.shuffle_seed = 1
+env.agent.harness.id = "null"
+env.agent.runtime.type = "subprocess"
+env.agent.max_turns = 48
+
+[deployment]
+num_train_gpus = 1
+num_infer_gpus = 1
+
+[inference.vllm]
+enable_lora = true
+max_lora_rank = 32
+max_model_len = 5120

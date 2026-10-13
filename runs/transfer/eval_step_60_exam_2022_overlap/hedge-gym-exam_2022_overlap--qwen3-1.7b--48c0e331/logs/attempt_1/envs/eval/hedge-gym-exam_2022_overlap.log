@@ -1,0 +1,393 @@
+[2m10:27:21[0m [1m   INFO[0m [1m[22mEnvServerPool up: address=tcp://127.0.0.1:42699 workers=1/inf multiplex=128 elastic=True[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mEnvServer up: taskset=hedge-gym address=ipc:///tmp/vf-pool-7vs085m2/0[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:46297[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22minterception pool: 1 server(s), multiplex=32[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=1e08407b16034216a6b57e9475315287 task=0 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=c136db2a62a14ec9bf20226c8b5e0f83 task=1 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=670663345ec84070b22e4fecfc8cefc1 task=2 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=0e13344a26e04469890b4ef0641e58f8 task=3 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=5c1b5fc9518043a486200640970dd489 task=4 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=984a62cedd464bbd90b8b8f8deaa1939 task=5 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=9c0b6b6f71ee4564903335499b738eb5 task=6 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=319ef33983344840b425d545fdacc21d task=7 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=f084d9625f194bfa9c1171a87430f2f2 task=8 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=eb12e3d478ae432895740a5a4af54f4b task=9 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=6e55f64281944788b23a9d3a903fd92b task=10 harness=null runtime=subprocess[0m[0m
+[2m10:27:26[0m [1m   INFO[0m [1m[22mrollout start: id=fe2aafc4da7e49d1b59150410abe1263 task=11 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=3eac6a9faa8f4d4793511f70dd2dc291 task=12 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=b0385910fafd4ccaa4ba133dd52fadf6 task=13 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=4774d1ee98034871ac36e1e1d3486a00 task=14 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=e057bf36031f42c4bf689281910967b1 task=15 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=b1021cf23a4f4f8a81bb3592fe9f9392 task=16 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=f40fc06322f24927bd2b3ab282ed06b2 task=17 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=b6ff096eff3a41029d02a40bfac093fb task=18 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=43e20fbfa3ce42c39eab0966951c93b9 task=19 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=9060ec67cc994cf1a06fb459ead4eecb task=20 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=ab06b0d9734d44108c984838ec1bd9ca task=21 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=f3aef7093b8f4731811bf4874d0df37d task=22 harness=null runtime=subprocess[0m[0m
+[2m10:27:27[0m [1m   INFO[0m [1m[22mrollout start: id=333a97fd647d4bc6825cd74a17a0dddb task=23 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=130b2e7d96774599adad9dd55d51938e task=24 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=13d4430020b04bde8bab360c4911226e task=25 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=c71264273e154a1791e9d4f30f346199 task=26 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=a3ec220e527d48e28abaac70e6665ef4 task=27 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=cdd52bb8bca548d7ae3f289911572fbf task=28 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=be5cd6dfd5114f5c8d72d7d554aed0aa task=29 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=cbdd07db807047c58bdd2cbd861adcbb task=30 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=c91013e6043241ce9e5fe6b85fe2b60b task=31 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=1b947e296bd242b39ef06f7c0dffd28d task=32 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=d1e5bb1171f141c8967d0de4856ecbf9 task=33 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:40005[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22minterception pool: 2 server(s), multiplex=32[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=bd5dfde9be4c46a588d73631564f12e7 task=34 harness=null runtime=subprocess[0m[0m
+[2m10:27:32[0m [1m   INFO[0m [1m[22mrollout start: id=e548b2e05dda4df2a1f294e2d1809025 task=35 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=f03a6aacde1f49598dc82ad052f5279e task=36 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=43c1a9aeaf3a4afcb8786c4cb5947bc2 task=37 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=c03075709aaa417f989dd37def7b752a task=38 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=577316d055024fa199506451df72b212 task=39 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=f3080f736e0c43b4a983b4646f5e73e1 task=40 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=a46a037be99d4162aaa78af9bc2d6da9 task=41 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=8492e4eec9774a4fb223d66a26d750f8 task=42 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=73f017e4173a4ff2a8dfd5d70c0928b2 task=43 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=8e6592a9adb94aa89a3ce7abc73808d8 task=44 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=0cefed3456204d08a5bd67b2538ab8a7 task=45 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=dcc37cbad8b9494f90a42e832d68268c task=46 harness=null runtime=subprocess[0m[0m
+[2m10:27:37[0m [1m   INFO[0m [1m[22mrollout start: id=3a7749cb25eb4140afc7b38958316f6a task=47 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=ad23429c9c0d495883ce06d26f8dd468 task=48 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=969c242a866c46c0a4b4ef4039d838dc task=49 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=95fd590ce81a407aba35d8765db9ec1c task=50 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=8de255d579c14a7983a932ceaa669249 task=51 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=0b4afcf5e84d4d92991e34c3039452c9 task=52 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=dc022a71f9b7498e87c1add7c8352b3c task=53 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=e8d1cec686a448a1a38e83c1a0090965 task=54 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=367ceef91a2946d4aa0b576d0dd429ea task=55 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=6a031937e319443cb5462a0d43f65b0d task=56 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=ba03ebbfc60848b19168d960f7a10c14 task=57 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=6a303d276dda477eb1605e6e14c88e03 task=58 harness=null runtime=subprocess[0m[0m
+[2m10:27:42[0m [1m   INFO[0m [1m[22mrollout start: id=7f5ed928c25642d78cccb91386e1786e task=59 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=9f2121ff0ef645a7b1cbb21292a4bdfe task=60 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=81fc6fb313704e1789da8d1cba99cf36 task=61 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=a80120cf0db947659bd57eb072570bf3 task=62 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=fd20a702865048c5ad9a943866bfba42 task=63 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=f6ca1ef0ffd54035a3c4441d7deee034 task=64 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=65e0b2234a2b42e59bab17ca8db9330b task=65 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:35287[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22minterception pool: 3 server(s), multiplex=32[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=8c3a1bf10f714de78e45ce7e5f47ea13 task=66 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=3478dfb53f2b49ceac983e25d26c7d34 task=67 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=4a4f8688b28a4746a093c2b3725d0968 task=68 harness=null runtime=subprocess[0m[0m
+[2m10:27:47[0m [1m   INFO[0m [1m[22mrollout start: id=4d750cfeb68b44eeaed9c09bace59204 task=69 harness=null runtime=subprocess[0m[0m
+[2m10:27:48[0m [1m   INFO[0m [1m[22mrollout start: id=2302c7e8e4b64b09b2e6cba2b794b169 task=70 harness=null runtime=subprocess[0m[0m
+[2m10:27:48[0m [1m   INFO[0m [1m[22mrollout start: id=9166c2af986047bd80fc5a7902bf4e81 task=71 harness=null runtime=subprocess[0m[0m
+[2m10:27:52[0m [1m   INFO[0m [1m[22mrollout start: id=9f0d72442aec4ec2afa03c48df59cc02 task=72 harness=null runtime=subprocess[0m[0m
+[2m10:27:52[0m [1m   INFO[0m [1m[22mrollout start: id=8dde40081f1c4e578242cea2c1607373 task=73 harness=null runtime=subprocess[0m[0m
+[2m10:27:52[0m [1m   INFO[0m [1m[22mrollout start: id=135fa54807274f77bf7a8d922b55d37e task=74 harness=null runtime=subprocess[0m[0m
+[2m10:27:52[0m [1m   INFO[0m [1m[22mrollout start: id=6503b5f893e34d0f953d683bd35a214e task=75 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=75707909691a4940b196cdfd8736e6c5 task=76 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=883d64dfa50e45c0a22c5e89a529a179 task=77 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=d2e75285ef4d4ad69c082bce4537a0c2 task=78 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=336de0ffb6294b48b280fc1e67852dcd task=79 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=6c64a2a7c91f4d31953362f2dabce6f2 task=80 harness=null runtime=subprocess[0m[0m
+[2m10:27:53[0m [1m   INFO[0m [1m[22mrollout start: id=abe60b1eadd6473aa89115632868b129 task=81 harness=null runtime=subprocess[0m[0m
+[2m10:27:54[0m [1m   INFO[0m [1m[22mrollout start: id=b49ec77673be49fda0cadc3fca1f9885 task=82 harness=null runtime=subprocess[0m[0m
+[2m10:27:54[0m [1m   INFO[0m [1m[22mrollout start: id=577dc8850e6f4588928468974b039ee4 task=83 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=22737bac0a6e45d88509c0298a72f121 task=84 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=4d9045ef7bd042a2ae65b220cebddf34 task=85 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=c6606a45537a453b8f5720bd3de1c2ba task=86 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=0e0f46d13ae74f5199af07486f5c15c3 task=87 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=8e46326ce4374363874d92d0e01f7bcb task=88 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=6181a9bb4e8b4f26b0fb68ec302ab47b task=89 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=d3a54c2716f6494b8c8cb9eb9a07b40b task=90 harness=null runtime=subprocess[0m[0m
+[2m10:27:57[0m [1m   INFO[0m [1m[22mrollout start: id=d3160fe1d53a4d158938d510c5411afb task=91 harness=null runtime=subprocess[0m[0m
+[2m10:27:58[0m [1m   INFO[0m [1m[22mrollout start: id=f08f3271549947b0b024bb6ae5b4581a task=92 harness=null runtime=subprocess[0m[0m
+[2m10:27:58[0m [1m   INFO[0m [1m[22mrollout start: id=6f85c20a5ab343f9b11c0acb4239e54c task=93 harness=null runtime=subprocess[0m[0m
+[2m10:27:58[0m [1m   INFO[0m [1m[22mrollout start: id=04fb04748ece472394f3f6a990658e34 task=94 harness=null runtime=subprocess[0m[0m
+[2m10:27:58[0m [1m   INFO[0m [1m[22mrollout start: id=b64cff25ac4a4b58a9080cea473ff714 task=95 harness=null runtime=subprocess[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22mrollout start: id=e9e7043842ca46a7a357590bcc6253a6 task=96 harness=null runtime=subprocess[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22mrollout start: id=d7c66f891ac946ad916e31d251b81d04 task=97 harness=null runtime=subprocess[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:42001[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22minterception pool: 4 server(s), multiplex=32[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22mrollout start: id=a32a8c60eeb84279a7963c00606742ef task=98 harness=null runtime=subprocess[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22mrollout start: id=77c7df2a7b994e858f8a814febd46d6c task=99 harness=null runtime=subprocess[0m[0m
+[2m10:28:02[0m [1m   INFO[0m [1m[22mrollout start: id=cd14142d56b34d33a362709fd75412cf task=100 harness=null runtime=subprocess[0m[0m
+[2m10:28:03[0m [1m   INFO[0m [1m[22mrollout start: id=36c4e8956c2c4b52ace9fdd9593df0db task=101 harness=null runtime=subprocess[0m[0m
+[2m10:28:03[0m [1m   INFO[0m [1m[22mrollout start: id=b0e270c6c8284dd594f6e42d906565dd task=102 harness=null runtime=subprocess[0m[0m
+[2m10:28:03[0m [1m   INFO[0m [1m[22mrollout start: id=2165d04a4edf4b5aa22f1329eaecd2a9 task=103 harness=null runtime=subprocess[0m[0m
+[2m10:28:03[0m [1m   INFO[0m [1m[22mrollout start: id=8914be60a8114c1c834e4b31bbb3b590 task=104 harness=null runtime=subprocess[0m[0m
+[2m10:28:04[0m [1m   INFO[0m [1m[22mrollout start: id=e8db4956c55e468e8e1e416d169fc801 task=105 harness=null runtime=subprocess[0m[0m
+[2m10:28:04[0m [1m   INFO[0m [1m[22mrollout start: id=e84c8a170bb44a3aa59e6321fc1928e3 task=106 harness=null runtime=subprocess[0m[0m
+[2m10:28:04[0m [1m   INFO[0m [1m[22mrollout start: id=8801ebe972f34afaa9f0d2cb7a02bfc0 task=107 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mEnvServerPool scaled up to 2/inf workers (in_flight=116)[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=19c871b3c2b24005b43776b9433bf9c7 task=108 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=ff92a620884240dc8d1932e0c2a79e43 task=109 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=e4ede6644f2c4c8da1b5dbedef310ed0 task=110 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=776703d7c9764f8a8243eb98f9f4778b task=111 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=71ec11cc9ee548d6b3721fd49ec13998 task=112 harness=null runtime=subprocess[0m[0m
+[2m10:28:07[0m [1m   INFO[0m [1m[22mrollout start: id=df93e1af731d44f9b92cb3e3c2b7f763 task=113 harness=null runtime=subprocess[0m[0m
+[2m10:28:08[0m [1m   INFO[0m [1m[22mrollout start: id=a2cbeb676e61436d8afc735378ce44d7 task=114 harness=null runtime=subprocess[0m[0m
+[2m10:28:08[0m [1m   INFO[0m [1m[22mrollout start: id=d78c38f029414795981457c38e567017 task=115 harness=null runtime=subprocess[0m[0m
+[2m10:28:48[0m [1m   INFO[0m [1m[22mEnvServer up: taskset=hedge-gym address=ipc:///tmp/vf-pool-7vs085m2/1[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:34407[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22minterception pool: 1 server(s), multiplex=32[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=683f9536e2a34afaab925c74901fb043 task=116 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=2d4c70895a174f178bade91bfec1a2f9 task=117 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=03dfc022615548b2a0ec0501548df7df task=118 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=cec03644877e44eb8a23f68539a14a81 task=119 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=d4c5a2300f234b46a96d745873f39be2 task=120 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=c0e07c156232408b939b6fb0a530716c task=121 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=5534fc7ebfa049e7a317cda69bcaf853 task=122 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=f729deff567a436687d2a16924870fd8 task=123 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=9514f3cce47d4636b358e36e578c6da0 task=124 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=0d71e6461fb649c0b0cef4338eb27239 task=125 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=766e75a894dc4b59bab5bf4bc0ccb276 task=126 harness=null runtime=subprocess[0m[0m
+[2m10:28:50[0m [1m   INFO[0m [1m[22mrollout start: id=e627738b7cc94545baf6594991315c68 task=127 harness=null runtime=subprocess[0m[0m
+[2m10:32:16[0m [1m   INFO[0m [1m[22mrollout done: id=ab06b0d9734d44108c984838ec1bd9ca task=21 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:16[0m [1m   INFO[0m [1m[22mrollout start: id=d9b0efdd27044d22aea0ef5f0089eaae task=128 harness=null runtime=subprocess[0m[0m
+[2m10:32:37[0m [1m   INFO[0m [1m[22mrollout done: id=670663345ec84070b22e4fecfc8cefc1 task=2 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:37[0m [1m   INFO[0m [1m[22mrollout start: id=edb3cbcf0eb5489390c7220b11ae3f3a task=129 harness=null runtime=subprocess[0m[0m
+[2m10:32:40[0m [1m   INFO[0m [1m[22mrollout done: id=333a97fd647d4bc6825cd74a17a0dddb task=23 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:40[0m [1m   INFO[0m [1m[22mrollout start: id=b71a3165585041c79df7b3fba64e7e53 task=130 harness=null runtime=subprocess[0m[0m
+[2m10:32:40[0m [1m   INFO[0m [1m[22mrollout done: id=9c0b6b6f71ee4564903335499b738eb5 task=6 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:40[0m [1m   INFO[0m [1m[22mrollout start: id=4803e8b3925d439cba132d6f52d45c7d task=131 harness=null runtime=subprocess[0m[0m
+[2m10:32:41[0m [1m   INFO[0m [1m[22mrollout done: id=984a62cedd464bbd90b8b8f8deaa1939 task=5 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:41[0m [1m   INFO[0m [1m[22mrollout start: id=97327ee9070b42b283b28f94d99bc49c task=132 harness=null runtime=subprocess[0m[0m
+[2m10:32:42[0m [1m   INFO[0m [1m[22mrollout done: id=f084d9625f194bfa9c1171a87430f2f2 task=8 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:42[0m [1m   INFO[0m [1m[22mrollout start: id=4e6da5e778d448a09da20029e1249fd7 task=133 harness=null runtime=subprocess[0m[0m
+[2m10:32:43[0m [1m   INFO[0m [1m[22mrollout done: id=b0385910fafd4ccaa4ba133dd52fadf6 task=13 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:43[0m [1m   INFO[0m [1m[22mrollout start: id=4b6fac6cfa334e349df018f049b3d610 task=134 harness=null runtime=subprocess[0m[0m
+[2m10:32:45[0m [1m   INFO[0m [1m[22mrollout done: id=f40fc06322f24927bd2b3ab282ed06b2 task=17 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:45[0m [1m   INFO[0m [1m[22mrollout start: id=af420d34fc694cf1b22c82d863fd80fc task=135 harness=null runtime=subprocess[0m[0m
+[2m10:32:47[0m [1m   INFO[0m [1m[22mrollout done: id=bd5dfde9be4c46a588d73631564f12e7 task=34 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:47[0m [1m   INFO[0m [1m[22mrollout start: id=8bdab490de8e468b9a348705cf02321f task=136 harness=null runtime=subprocess[0m[0m
+[2m10:32:48[0m [1m   INFO[0m [1m[22mrollout done: id=fe2aafc4da7e49d1b59150410abe1263 task=11 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:48[0m [1m   INFO[0m [1m[22mrollout start: id=acd2914129e644609e69927d64840961 task=137 harness=null runtime=subprocess[0m[0m
+[2m10:32:50[0m [1m   INFO[0m [1m[22mrollout done: id=5c1b5fc9518043a486200640970dd489 task=4 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:50[0m [1m   INFO[0m [1m[22mrollout start: id=4205600be2bc45cdaa0bb969829c7669 task=138 harness=null runtime=subprocess[0m[0m
+[2m10:32:53[0m [1m   INFO[0m [1m[22mrollout done: id=e057bf36031f42c4bf689281910967b1 task=15 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:53[0m [1m   INFO[0m [1m[22mrollout start: id=541ea6b26c324f79be1bc3336b76ab83 task=139 harness=null runtime=subprocess[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout done: id=9060ec67cc994cf1a06fb459ead4eecb task=20 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout start: id=4277fb466a24465b8aed5eed4c932be4 task=140 harness=null runtime=subprocess[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout done: id=f3aef7093b8f4731811bf4874d0df37d task=22 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout start: id=cf5a519e799f495aa616a5ead0f7e5c4 task=141 harness=null runtime=subprocess[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout done: id=1b947e296bd242b39ef06f7c0dffd28d task=32 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:54[0m [1m   INFO[0m [1m[22mrollout start: id=41225d162c4d40a7960a305ed959afc3 task=142 harness=null runtime=subprocess[0m[0m
+[2m10:32:55[0m [1m   INFO[0m [1m[22mrollout done: id=1e08407b16034216a6b57e9475315287 task=0 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:55[0m [1m   INFO[0m [1m[22mrollout start: id=e81822049edd48adae92c837bb285052 task=143 harness=null runtime=subprocess[0m[0m
+[2m10:32:56[0m [1m   INFO[0m [1m[22mrollout done: id=6e55f64281944788b23a9d3a903fd92b task=10 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:56[0m [1m   INFO[0m [1m[22mrollout start: id=bc34f6b126574599a90fed639fb78eb8 task=144 harness=null runtime=subprocess[0m[0m
+[2m10:32:57[0m [1m   INFO[0m [1m[22mrollout done: id=43e20fbfa3ce42c39eab0966951c93b9 task=19 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:57[0m [1m   INFO[0m [1m[22mrollout start: id=5b75d385929f491a8964624ceb630141 task=145 harness=null runtime=subprocess[0m[0m
+[2m10:32:57[0m [1m   INFO[0m [1m[22mrollout done: id=4774d1ee98034871ac36e1e1d3486a00 task=14 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:57[0m [1m   INFO[0m [1m[22mrollout start: id=7e2bc62e532446ceb464a5ae9b174852 task=146 harness=null runtime=subprocess[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22mrollout done: id=b6ff096eff3a41029d02a40bfac093fb task=18 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22mrollout start: id=05f9d6c6bf5e4de3a3e7ca166c8ce7f3 task=147 harness=null runtime=subprocess[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22mrollout done: id=eb12e3d478ae432895740a5a4af54f4b task=9 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22mrollout start: id=9ab4ad8fe4ad4ee781ada4adc59b9a9c task=148 harness=null runtime=subprocess[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22minterception up: url=http://127.0.0.1:42669[0m[0m
+[2m10:32:58[0m [1m   INFO[0m [1m[22minterception pool: 2 server(s), multiplex=32[0m[0m
+[2m10:32:59[0m [1m   INFO[0m [1m[22mrollout done: id=3eac6a9faa8f4d4793511f70dd2dc291 task=12 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:59[0m [1m   INFO[0m [1m[22mrollout start: id=bb8a9637992246d08ad7e27eedd2b790 task=149 harness=null runtime=subprocess[0m[0m
+[2m10:32:59[0m [1m   INFO[0m [1m[22mrollout done: id=e548b2e05dda4df2a1f294e2d1809025 task=35 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:32:59[0m [1m   INFO[0m [1m[22mrollout start: id=c77e0905cbfd41f39503bd62a7c2f478 task=150 harness=null runtime=subprocess[0m[0m
+[2m10:33:00[0m [1m   INFO[0m [1m[22mrollout done: id=c136db2a62a14ec9bf20226c8b5e0f83 task=1 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:00[0m [1m   INFO[0m [1m[22mrollout start: id=7dce4c4590654279bd1274996248f854 task=151 harness=null runtime=subprocess[0m[0m
+[2m10:33:01[0m [1m   INFO[0m [1m[22mrollout done: id=b1021cf23a4f4f8a81bb3592fe9f9392 task=16 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:01[0m [1m   INFO[0m [1m[22mrollout start: id=a41aa91f6abe4332bc5a6915439e6315 task=152 harness=null runtime=subprocess[0m[0m
+[2m10:33:05[0m [1m   INFO[0m [1m[22mrollout done: id=0e13344a26e04469890b4ef0641e58f8 task=3 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:05[0m [1m   INFO[0m [1m[22mrollout start: id=8e95a57504c64b93a317c0a4692929cc task=153 harness=null runtime=subprocess[0m[0m
+[2m10:33:05[0m [1m   INFO[0m [1m[22mrollout done: id=cdd52bb8bca548d7ae3f289911572fbf task=28 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:05[0m [1m   INFO[0m [1m[22mrollout start: id=2cdfcc60b1a741bdbcd9e97767ee3d10 task=154 harness=null runtime=subprocess[0m[0m
+[2m10:33:07[0m [1m   INFO[0m [1m[22mrollout done: id=c03075709aaa417f989dd37def7b752a task=38 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:07[0m [1m   INFO[0m [1m[22mrollout start: id=77d8d05344334abc8799a22936ece8d9 task=155 harness=null runtime=subprocess[0m[0m
+[2m10:33:09[0m [1m   INFO[0m [1m[22mrollout done: id=be5cd6dfd5114f5c8d72d7d554aed0aa task=29 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:09[0m [1m   INFO[0m [1m[22mrollout start: id=dece9252969c4efb877805477edbc89c task=156 harness=null runtime=subprocess[0m[0m
+[2m10:33:10[0m [1m   INFO[0m [1m[22mrollout done: id=319ef33983344840b425d545fdacc21d task=7 reward=0.000 turns=22 stop=user_closed[0m[0m
+[2m10:33:10[0m [1m   INFO[0m [1m[22mrollout start: id=99cae003a185413996f7ebff65b85cb5 task=157 harness=null runtime=subprocess[0m[0m
+[2m10:33:11[0m [1m   INFO[0m [1m[22mrollout done: id=c91013e6043241ce9e5fe6b85fe2b60b task=31 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:11[0m [1m   INFO[0m [1m[22mrollout start: id=1a3d0075be414f7a859c9ae8ce9b45d4 task=158 harness=null runtime=subprocess[0m[0m
+[2m10:33:12[0m [1m   INFO[0m [1m[22mrollout done: id=d1e5bb1171f141c8967d0de4856ecbf9 task=33 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:12[0m [1m   INFO[0m [1m[22mrollout start: id=5b1997ce82af4368aed5e523e0ecedbe task=159 harness=null runtime=subprocess[0m[0m
+[2m10:33:13[0m [1m   INFO[0m [1m[22mrollout done: id=130b2e7d96774599adad9dd55d51938e task=24 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:13[0m [1m   INFO[0m [1m[22mrollout start: id=ff6e1e7838b6423eb25ac4736d4e3a2f task=160 harness=null runtime=subprocess[0m[0m
+[2m10:33:14[0m [1m   INFO[0m [1m[22mrollout done: id=c71264273e154a1791e9d4f30f346199 task=26 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:14[0m [1m   INFO[0m [1m[22mrollout start: id=1c152c933df2443796d51bb310d4f6bb task=161 harness=null runtime=subprocess[0m[0m
+[2m10:33:15[0m [1m   INFO[0m [1m[22mrollout done: id=cbdd07db807047c58bdd2cbd861adcbb task=30 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:15[0m [1m   INFO[0m [1m[22mrollout start: id=5224b1fc62b9405eba5bf49473624d0f task=162 harness=null runtime=subprocess[0m[0m
+[2m10:33:21[0m [1m   INFO[0m [1m[22mrollout done: id=13d4430020b04bde8bab360c4911226e task=25 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:21[0m [1m   INFO[0m [1m[22mrollout start: id=3a43ad8fb1d740ebbd3234e1d695b319 task=163 harness=null runtime=subprocess[0m[0m
+[2m10:33:23[0m [1m   INFO[0m [1m[22mrollout done: id=f03a6aacde1f49598dc82ad052f5279e task=36 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:23[0m [1m   INFO[0m [1m[22mrollout done: id=fd20a702865048c5ad9a943866bfba42 task=63 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:23[0m [1m   INFO[0m [1m[22mrollout start: id=0aef7dee309f4dfaa3befa0028fafdd3 task=164 harness=null runtime=subprocess[0m[0m
+[2m10:33:23[0m [1m   INFO[0m [1m[22mrollout start: id=90f6ee7d740649e9bf5e422a730a80fd task=165 harness=null runtime=subprocess[0m[0m
+[2m10:33:24[0m [1m   INFO[0m [1m[22mrollout done: id=95fd590ce81a407aba35d8765db9ec1c task=50 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:24[0m [1m   INFO[0m [1m[22mrollout start: id=98055ced71204d959963ed62ce39fcee task=166 harness=null runtime=subprocess[0m[0m
+[2m10:33:25[0m [1m   INFO[0m [1m[22mrollout done: id=dcc37cbad8b9494f90a42e832d68268c task=46 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:25[0m [1m   INFO[0m [1m[22mrollout start: id=8e27d07a2dc84d498443e0f9059a7efa task=167 harness=null runtime=subprocess[0m[0m
+[2m10:33:26[0m [1m   INFO[0m [1m[22mrollout done: id=43c1a9aeaf3a4afcb8786c4cb5947bc2 task=37 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:26[0m [1m   INFO[0m [1m[22mrollout start: id=7bde1e1cfead4566ac3995ee7f0dcd1f task=168 harness=null runtime=subprocess[0m[0m
+[2m10:33:29[0m [1m   INFO[0m [1m[22mrollout done: id=367ceef91a2946d4aa0b576d0dd429ea task=55 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:29[0m [1m   INFO[0m [1m[22mrollout start: id=cb6b0c241ee9464481e798f93438bfc5 task=169 harness=null runtime=subprocess[0m[0m
+[2m10:33:32[0m [1m   INFO[0m [1m[22mrollout done: id=f3080f736e0c43b4a983b4646f5e73e1 task=40 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:32[0m [1m   INFO[0m [1m[22mrollout start: id=f0e83feef57242b0ba52baeba0b2e702 task=170 harness=null runtime=subprocess[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout done: id=e8d1cec686a448a1a38e83c1a0090965 task=54 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout start: id=250f1a3268b4463290c22454844c3fac task=171 harness=null runtime=subprocess[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout done: id=a46a037be99d4162aaa78af9bc2d6da9 task=41 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout start: id=db9196763cd945e8b780939f468c9e6e task=172 harness=null runtime=subprocess[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout done: id=8e6592a9adb94aa89a3ce7abc73808d8 task=44 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout start: id=465b275f9f0b4cbf98c2b70dc73daf10 task=173 harness=null runtime=subprocess[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout done: id=8492e4eec9774a4fb223d66a26d750f8 task=42 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:33[0m [1m   INFO[0m [1m[22mrollout start: id=f7a12721d8924e1595ada317fb67c40d task=174 harness=null runtime=subprocess[0m[0m
+[2m10:33:34[0m [1m   INFO[0m [1m[22mrollout done: id=0b4afcf5e84d4d92991e34c3039452c9 task=52 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:34[0m [1m   INFO[0m [1m[22mrollout start: id=f57cb51c198a45b89a05f110da607eda task=175 harness=null runtime=subprocess[0m[0m
+[2m10:33:40[0m [1m   INFO[0m [1m[22mrollout done: id=766e75a894dc4b59bab5bf4bc0ccb276 task=126 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:40[0m [1m   INFO[0m [1m[22mrollout start: id=6dd1443498f649df812dad8d3ae82299 task=176 harness=null runtime=subprocess[0m[0m
+[2m10:33:40[0m [1m   INFO[0m [1m[22mrollout done: id=0cefed3456204d08a5bd67b2538ab8a7 task=45 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:40[0m [1m   INFO[0m [1m[22mrollout start: id=e8809cb6ffd64016afc757dfc896199e task=177 harness=null runtime=subprocess[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout done: id=7f5ed928c25642d78cccb91386e1786e task=59 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout start: id=b088d4ba657c4df0881b9072105ae8bd task=178 harness=null runtime=subprocess[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout done: id=4a4f8688b28a4746a093c2b3725d0968 task=68 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout start: id=5fa377584eff4e928faec843a058be2d task=179 harness=null runtime=subprocess[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout done: id=6a031937e319443cb5462a0d43f65b0d task=56 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:41[0m [1m   INFO[0m [1m[22mrollout start: id=0959bc9787a4485aa4e7e1cbc9eb02ae task=180 harness=null runtime=subprocess[0m[0m
+[2m10:33:43[0m [1m   INFO[0m [1m[22mrollout done: id=6503b5f893e34d0f953d683bd35a214e task=75 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:43[0m [1m   INFO[0m [1m[22mrollout start: id=5f6bb637621e4ed191f60f1158016626 task=181 harness=null runtime=subprocess[0m[0m
+[2m10:33:43[0m [1m   INFO[0m [1m[22mrollout done: id=3a7749cb25eb4140afc7b38958316f6a task=47 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:43[0m [1m   INFO[0m [1m[22mrollout start: id=a6b1004981e9464696d4493dbadd9df7 task=182 harness=null runtime=subprocess[0m[0m
+[2m10:33:44[0m [1m   INFO[0m [1m[22mrollout done: id=75707909691a4940b196cdfd8736e6c5 task=76 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:44[0m [1m   INFO[0m [1m[22mrollout start: id=a4343bc606f94213be76697d760bc9a4 task=183 harness=null runtime=subprocess[0m[0m
+[2m10:33:44[0m [1m   INFO[0m [1m[22mrollout done: id=dc022a71f9b7498e87c1add7c8352b3c task=53 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:44[0m [1m   INFO[0m [1m[22mrollout done: id=ff92a620884240dc8d1932e0c2a79e43 task=109 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:46[0m [1m   INFO[0m [1m[22mrollout done: id=cd14142d56b34d33a362709fd75412cf task=100 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:46[0m [1m   INFO[0m [1m[22mrollout done: id=a2cbeb676e61436d8afc735378ce44d7 task=114 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:46[0m [1m   INFO[0m [1m[22mrollout done: id=3478dfb53f2b49ceac983e25d26c7d34 task=67 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=2165d04a4edf4b5aa22f1329eaecd2a9 task=103 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=9514f3cce47d4636b358e36e578c6da0 task=124 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=a80120cf0db947659bd57eb072570bf3 task=62 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=19c871b3c2b24005b43776b9433bf9c7 task=108 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=e9e7043842ca46a7a357590bcc6253a6 task=96 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=5534fc7ebfa049e7a317cda69bcaf853 task=122 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=2d4c70895a174f178bade91bfec1a2f9 task=117 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=ad23429c9c0d495883ce06d26f8dd468 task=48 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=73f017e4173a4ff2a8dfd5d70c0928b2 task=43 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:47[0m [1m   INFO[0m [1m[22mrollout done: id=577316d055024fa199506451df72b212 task=39 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:48[0m [1m   INFO[0m [1m[22mrollout done: id=c0e07c156232408b939b6fb0a530716c task=121 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:48[0m [1m   INFO[0m [1m[22mrollout done: id=d4c5a2300f234b46a96d745873f39be2 task=120 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:48[0m [1m   INFO[0m [1m[22mrollout done: id=969c242a866c46c0a4b4ef4039d838dc task=49 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:49[0m [1m   INFO[0m [1m[22mrollout done: id=cec03644877e44eb8a23f68539a14a81 task=119 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:51[0m [1m   INFO[0m [1m[22mrollout done: id=9f2121ff0ef645a7b1cbb21292a4bdfe task=60 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:53[0m [1m   INFO[0m [1m[22mrollout done: id=f729deff567a436687d2a16924870fd8 task=123 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:53[0m [1m   INFO[0m [1m[22mrollout done: id=03dfc022615548b2a0ec0501548df7df task=118 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:58[0m [1m   INFO[0m [1m[22mrollout done: id=22737bac0a6e45d88509c0298a72f121 task=84 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:58[0m [1m   INFO[0m [1m[22mrollout done: id=d2e75285ef4d4ad69c082bce4537a0c2 task=78 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=e627738b7cc94545baf6594991315c68 task=127 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=8c3a1bf10f714de78e45ce7e5f47ea13 task=66 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=81fc6fb313704e1789da8d1cba99cf36 task=61 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=0d71e6461fb649c0b0cef4338eb27239 task=125 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=683f9536e2a34afaab925c74901fb043 task=116 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:33:59[0m [1m   INFO[0m [1m[22mrollout done: id=a3ec220e527d48e28abaac70e6665ef4 task=27 reward=0.000 turns=24 stop=user_closed[0m[0m
+[2m10:34:00[0m [1m   INFO[0m [1m[22mrollout done: id=8dde40081f1c4e578242cea2c1607373 task=73 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:00[0m [1m   INFO[0m [1m[22mrollout done: id=6c64a2a7c91f4d31953362f2dabce6f2 task=80 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:00[0m [1m   INFO[0m [1m[22mrollout done: id=6181a9bb4e8b4f26b0fb68ec302ab47b task=89 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=f6ca1ef0ffd54035a3c4441d7deee034 task=64 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=ba03ebbfc60848b19168d960f7a10c14 task=57 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=4d750cfeb68b44eeaed9c09bace59204 task=69 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=135fa54807274f77bf7a8d922b55d37e task=74 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=36c4e8956c2c4b52ace9fdd9593df0db task=101 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=df93e1af731d44f9b92cb3e3c2b7f763 task=113 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=a32a8c60eeb84279a7963c00606742ef task=98 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:01[0m [1m   INFO[0m [1m[22mrollout done: id=77c7df2a7b994e858f8a814febd46d6c task=99 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=9166c2af986047bd80fc5a7902bf4e81 task=71 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=d7c66f891ac946ad916e31d251b81d04 task=97 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=8de255d579c14a7983a932ceaa669249 task=51 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=65e0b2234a2b42e59bab17ca8db9330b task=65 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=336de0ffb6294b48b280fc1e67852dcd task=79 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=883d64dfa50e45c0a22c5e89a529a179 task=77 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=9f0d72442aec4ec2afa03c48df59cc02 task=72 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=f08f3271549947b0b024bb6ae5b4581a task=92 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=8e46326ce4374363874d92d0e01f7bcb task=88 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=abe60b1eadd6473aa89115632868b129 task=81 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=b49ec77673be49fda0cadc3fca1f9885 task=82 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=577dc8850e6f4588928468974b039ee4 task=83 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=6a303d276dda477eb1605e6e14c88e03 task=58 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:02[0m [1m   INFO[0m [1m[22mrollout done: id=2302c7e8e4b64b09b2e6cba2b794b169 task=70 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:08[0m [1m   INFO[0m [1m[22mrollout done: id=d78c38f029414795981457c38e567017 task=115 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:09[0m [1m   INFO[0m [1m[22mrollout done: id=4d9045ef7bd042a2ae65b220cebddf34 task=85 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:09[0m [1m   INFO[0m [1m[22mrollout done: id=71ec11cc9ee548d6b3721fd49ec13998 task=112 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:09[0m [1m   INFO[0m [1m[22mrollout done: id=e4ede6644f2c4c8da1b5dbedef310ed0 task=110 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:10[0m [1m   INFO[0m [1m[22mrollout done: id=b64cff25ac4a4b58a9080cea473ff714 task=95 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=d3160fe1d53a4d158938d510c5411afb task=91 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=6f85c20a5ab343f9b11c0acb4239e54c task=93 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=e8db4956c55e468e8e1e416d169fc801 task=105 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=8914be60a8114c1c834e4b31bbb3b590 task=104 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=04fb04748ece472394f3f6a990658e34 task=94 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:11[0m [1m   INFO[0m [1m[22mrollout done: id=0e0f46d13ae74f5199af07486f5c15c3 task=87 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:12[0m [1m   INFO[0m [1m[22mrollout done: id=c6606a45537a453b8f5720bd3de1c2ba task=86 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:12[0m [1m   INFO[0m [1m[22mrollout done: id=8801ebe972f34afaa9f0d2cb7a02bfc0 task=107 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:12[0m [1m   INFO[0m [1m[22mrollout done: id=e84c8a170bb44a3aa59e6321fc1928e3 task=106 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:12[0m [1m   INFO[0m [1m[22mrollout done: id=d3a54c2716f6494b8c8cb9eb9a07b40b task=90 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:17[0m [1m   INFO[0m [1m[22mrollout done: id=776703d7c9764f8a8243eb98f9f4778b task=111 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:34:18[0m [1m   INFO[0m [1m[22mrollout done: id=b0e270c6c8284dd594f6e42d906565dd task=102 reward=0.000 turns=23 stop=user_closed[0m[0m
+[2m10:36:00[0m [1m   INFO[0m [1m[22mrollout done: id=1a3d0075be414f7a859c9ae8ce9b45d4 task=158 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:00[0m [1m   INFO[0m [1m[22mrollout done: id=d9b0efdd27044d22aea0ef5f0089eaae task=128 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:08[0m [1m   INFO[0m [1m[22mrollout done: id=7e2bc62e532446ceb464a5ae9b174852 task=146 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:08[0m [1m   INFO[0m [1m[22mrollout done: id=41225d162c4d40a7960a305ed959afc3 task=142 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:09[0m [1m   INFO[0m [1m[22mrollout done: id=a41aa91f6abe4332bc5a6915439e6315 task=152 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:10[0m [1m   INFO[0m [1m[22mrollout done: id=edb3cbcf0eb5489390c7220b11ae3f3a task=129 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:10[0m [1m   INFO[0m [1m[22mrollout done: id=4b6fac6cfa334e349df018f049b3d610 task=134 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:10[0m [1m   INFO[0m [1m[22mrollout done: id=8bdab490de8e468b9a348705cf02321f task=136 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:10[0m [1m   INFO[0m [1m[22mrollout done: id=e81822049edd48adae92c837bb285052 task=143 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:11[0m [1m   INFO[0m [1m[22mrollout done: id=b71a3165585041c79df7b3fba64e7e53 task=130 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:13[0m [1m   INFO[0m [1m[22mrollout done: id=dece9252969c4efb877805477edbc89c task=156 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:15[0m [1m   INFO[0m [1m[22mrollout done: id=af420d34fc694cf1b22c82d863fd80fc task=135 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:15[0m [1m   INFO[0m [1m[22mrollout done: id=4803e8b3925d439cba132d6f52d45c7d task=131 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=bb8a9637992246d08ad7e27eedd2b790 task=149 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=5f6bb637621e4ed191f60f1158016626 task=181 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=541ea6b26c324f79be1bc3336b76ab83 task=139 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=8e95a57504c64b93a317c0a4692929cc task=153 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=99cae003a185413996f7ebff65b85cb5 task=157 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:16[0m [1m   INFO[0m [1m[22mrollout done: id=8e27d07a2dc84d498443e0f9059a7efa task=167 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=acd2914129e644609e69927d64840961 task=137 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=4205600be2bc45cdaa0bb969829c7669 task=138 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=97327ee9070b42b283b28f94d99bc49c task=132 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=05f9d6c6bf5e4de3a3e7ca166c8ce7f3 task=147 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=cf5a519e799f495aa616a5ead0f7e5c4 task=141 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=5224b1fc62b9405eba5bf49473624d0f task=162 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:17[0m [1m   INFO[0m [1m[22mrollout done: id=4e6da5e778d448a09da20029e1249fd7 task=133 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:19[0m [1m   INFO[0m [1m[22mrollout done: id=bc34f6b126574599a90fed639fb78eb8 task=144 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:20[0m [1m   INFO[0m [1m[22mrollout done: id=5b75d385929f491a8964624ceb630141 task=145 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:20[0m [1m   INFO[0m [1m[22mrollout done: id=c77e0905cbfd41f39503bd62a7c2f478 task=150 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:20[0m [1m   INFO[0m [1m[22mrollout done: id=7bde1e1cfead4566ac3995ee7f0dcd1f task=168 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:21[0m [1m   INFO[0m [1m[22mrollout done: id=4277fb466a24465b8aed5eed4c932be4 task=140 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:21[0m [1m   INFO[0m [1m[22mrollout done: id=2cdfcc60b1a741bdbcd9e97767ee3d10 task=154 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:21[0m [1m   INFO[0m [1m[22mrollout done: id=77d8d05344334abc8799a22936ece8d9 task=155 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:21[0m [1m   INFO[0m [1m[22mrollout done: id=7dce4c4590654279bd1274996248f854 task=151 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:21[0m [1m   INFO[0m [1m[22mrollout done: id=9ab4ad8fe4ad4ee781ada4adc59b9a9c task=148 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:22[0m [1m   INFO[0m [1m[22mrollout done: id=250f1a3268b4463290c22454844c3fac task=171 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:22[0m [1m   INFO[0m [1m[22mrollout done: id=a6b1004981e9464696d4493dbadd9df7 task=182 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=1c152c933df2443796d51bb310d4f6bb task=161 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=f7a12721d8924e1595ada317fb67c40d task=174 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=0aef7dee309f4dfaa3befa0028fafdd3 task=164 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=5b1997ce82af4368aed5e523e0ecedbe task=159 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=ff6e1e7838b6423eb25ac4736d4e3a2f task=160 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=db9196763cd945e8b780939f468c9e6e task=172 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=98055ced71204d959963ed62ce39fcee task=166 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=90f6ee7d740649e9bf5e422a730a80fd task=165 reward=0.000 turns=22 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=cb6b0c241ee9464481e798f93438bfc5 task=169 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=3a43ad8fb1d740ebbd3234e1d695b319 task=163 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=e8809cb6ffd64016afc757dfc896199e task=177 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=5fa377584eff4e928faec843a058be2d task=179 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=b088d4ba657c4df0881b9072105ae8bd task=178 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=0959bc9787a4485aa4e7e1cbc9eb02ae task=180 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:24[0m [1m   INFO[0m [1m[22mrollout done: id=a4343bc606f94213be76697d760bc9a4 task=183 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:25[0m [1m   INFO[0m [1m[22mrollout done: id=f57cb51c198a45b89a05f110da607eda task=175 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:25[0m [1m   INFO[0m [1m[22mrollout done: id=465b275f9f0b4cbf98c2b70dc73daf10 task=173 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:25[0m [1m   INFO[0m [1m[22mrollout done: id=6dd1443498f649df812dad8d3ae82299 task=176 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22mrollout done: id=f0e83feef57242b0ba52baeba0b2e702 task=170 reward=0.000 turns=21 stop=user_closed[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22mEnvServer down: taskset=hedge-gym[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22mEnvServer down: taskset=hedge-gym[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:42001[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:35287[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:42669[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:34407[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:40005[0m[0m
+[2m10:36:26[0m [1m   INFO[0m [1m[22minterception down: url=http://127.0.0.1:46297[0m[0m
+[2m10:36:27[0m [1m   INFO[0m [1m[22mEnvServerPool down[0m[0m

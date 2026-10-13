@@ -1,0 +1,7 @@
+pilot summary 2026-10-07T05:26:10Z
+eval_base: Evaluated hedge-gym-heldout (Step 0) |  9m 38s | Reward -0.0203 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+eval_step_0: Evaluated hedge-gym-heldout (Step 0) | 10m 15s | Reward -0.0215 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+eval_step_15: Evaluated hedge-gym-heldout (Step 0) |  10m 0s | Reward -0.0167 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+eval_step_30: Evaluated hedge-gym-heldout (Step 0) | 10m 16s | Reward -0.0151 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+eval_step_45: Evaluated hedge-gym-heldout (Step 0) | 10m 45s | Reward -0.0110 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+eval_step_60: Evaluated hedge-gym-heldout (Step 0) | 10m 51s | Reward -0.0112 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%

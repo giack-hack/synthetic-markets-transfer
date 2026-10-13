@@ -1,0 +1,40 @@
+[2026-10-08T09:36:52Z] boot: llm-gym-transfer a2-highgpu-1g
+GPU 0: NVIDIA A100-SXM4-40GB (UUID: GPU-27a54b41-71fd-862b-437b-558200cc1e39)
+[2026-10-08T09:42:04Z] adapters: step_0
+step_45
+step_60
+[2026-10-08T09:45:49Z] server up (step_0)
+[2026-10-08T09:45:49Z] adapter loaded: /root/adapters/step_0
+[2026-10-08T09:45:55Z] eval step_0 exam_2020_overlap FAILED
+[2026-10-08T09:45:55Z] continuing
+[2026-10-08T09:45:59Z] eval step_0 exam_2022_overlap FAILED
+[2026-10-08T09:45:59Z] continuing
+[2026-10-08T09:47:54Z] server up (step_60)
+[2026-10-08T09:47:55Z] adapter loaded: /root/adapters/step_60
+[2026-10-08T09:47:59Z] eval step_60 exam_2020_overlap FAILED
+[2026-10-08T09:47:59Z] continuing
+[2026-10-08T09:48:03Z] eval step_60 exam_2022_overlap FAILED
+[2026-10-08T09:48:03Z] continuing
+[2026-10-08T09:50:29Z] server up (step_45)
+[2026-10-08T09:50:29Z] adapter loaded: /root/adapters/step_45
+[2026-10-08T09:50:35Z] eval step_45 exam_2020_overlap FAILED
+[2026-10-08T09:50:35Z] continuing
+[2026-10-08T09:50:39Z] eval step_45 exam_2022_overlap FAILED
+[2026-10-08T09:50:39Z] continuing
+[2026-10-08T09:50:54Z] synced to <internal artifact store>; waiting for operator to delete this VM
+name = "hedge-gym-exam_2020_overlap"
+env.taskset.bank = "exam_2020_overlap"
+[2026-10-08T09:55:05Z] RESUME: evals with per-bank configs
+[2026-10-08T09:56:50Z] server up (step_0)
+[2026-10-08T09:56:50Z] adapter loaded: /root/adapters/step_0
+step_0 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |   9m 6s | Reward -0.0352 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_0 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |  8m 46s | Reward -0.0281 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-08T10:17:31Z] server up (step_60)
+[2026-10-08T10:17:31Z] adapter loaded: /root/adapters/step_60
+step_60 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |  9m 23s | Reward -0.0173 | Turns 21.2 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_60 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |   9m 4s | Reward -0.0144 | Turns 21.0 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-08T10:38:59Z] server up (step_45)
+[2026-10-08T10:38:59Z] adapter loaded: /root/adapters/step_45
+step_45 exam_2020_overlap: Evaluated hedge-gym-exam_2020_overlap (Step 0) |   9m 8s | Reward -0.0172 | Turns 21.3 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+step_45 exam_2022_overlap: Evaluated hedge-gym-exam_2022_overlap (Step 0) |   9m 0s | Reward -0.0150 | Turns 21.1 | Branches 1.0 | Error 0.0% | Truncation 0.0% | Timeout 0.0%
+[2026-10-08T10:59:24Z] synced; waiting for operator to delete this VM

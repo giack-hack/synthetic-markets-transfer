@@ -1,0 +1,12 @@
+untrained (eval_base): n=400 mean=-0.0203 invalid 0.033/ep (1.2% eps, 0.15% turns)
+scripted baselines on the same 400 worlds: {'no-hedge': -0.0248, 'constant-0.5': -0.0131, 'BS-delta': -0.006}
+
+checkpoint        n      mean   vs base        95% CI (paired)  CI>0?  invalid replies                          beats
+eval_step_0     400   -0.0215   -0.0011   [-0.0021, -0.0003]  no    0.025/ep (0.8% eps, 0.12% turns)         no-hedge
+eval_step_15    400   -0.0167   +0.0037   [+0.0020, +0.0055]  YES   0.000/ep (0.0% eps, 0.00% turns)         no-hedge
+eval_step_30    400   -0.0151   +0.0052   [+0.0035, +0.0071]  YES   0.000/ep (0.0% eps, 0.00% turns)         no-hedge
+eval_step_45    400   -0.0110   +0.0093   [+0.0076, +0.0112]  YES   0.030/ep (1.5% eps, 0.14% turns)         no-hedge, constant-0.5
+eval_step_60    400   -0.0112   +0.0091   [+0.0072, +0.0111]  YES   0.018/ep (0.5% eps, 0.08% turns)         no-hedge, constant-0.5
+
+Pass bar (PREREG-LLM-GYM Stage 0): mean > untrained with bootstrap CI excluding 0, AND invalid replies < 5%.
+The prereg does not say whether '5%' is per episode, per turn, or share of episodes; all three are shown. Truncation % is in each eval's SUCCESS line.
