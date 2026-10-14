@@ -1,6 +1,6 @@
 [project]
 name = "hedge-gym"
-version = "0.1.0"
+version = "0.1.1"
 description = "Option hedging on 21-day market worlds, synthetic or real: the environment behind 'trained only in synthetic markets, better on the real 2020 and 2022 crashes'. Deterministic deep-hedging reward, no judge."
 requires-python = ">=3.11"
 dependencies = ["verifiers>=0.3.1", "numpy>=1.26"]
