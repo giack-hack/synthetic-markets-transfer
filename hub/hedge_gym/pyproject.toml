@@ -1,0 +1,17 @@
+[project]
+name = "hedge-gym"
+version = "0.1.0"
+description = "Option hedging on 21-day market worlds, synthetic or real: the environment behind 'trained only in synthetic markets, better on the real 2020 and 2022 crashes'. Deterministic deep-hedging reward, no judge."
+requires-python = ">=3.11"
+dependencies = ["verifiers>=0.3.1", "numpy>=1.26"]
+tags = ["finance", "hedging", "options", "synthetic-data", "multi-turn", "eval", "train"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hedge_gym"]
+
+[tool.hatch.build]
+include = ["hedge_gym/**/*.py", "hedge_gym/data/*.npz", "README.md", "LICENSE", "DATA_LICENSE.md"]
